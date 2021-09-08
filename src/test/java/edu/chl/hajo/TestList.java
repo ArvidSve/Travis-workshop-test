@@ -78,6 +78,7 @@ public class TestList {
         list.add(1);
         list.add(3);
         list.add(5);
+        list.add(2);
         out.println("TRAVISSSSSSS");
         assertTrue(list.get(1) == 3);
     }
