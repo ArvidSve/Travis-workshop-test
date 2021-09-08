@@ -72,6 +72,16 @@ public class TestList {
 
     }
 
+    @Test
+    public void testToTestTravis() {
+        List list = new List();
+        list.add(1);
+        list.add(3);
+        list.add(5);
+        out.println("TRAVISSSSSSS");
+        assertTrue(list.get(1) == 3);
+    }
+
     @BeforeClass
     public static void beforeClass(){  //First of all
         System.out.println("Before class");
