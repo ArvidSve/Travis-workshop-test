@@ -83,6 +83,18 @@ public class TestList {
         assertTrue(list.get(1) == 3);
     }
 
+    /*
+    * I´ll just make som random test for practise.
+    *
+     */
+
+    @Test
+    public void testEdgeValues() {
+
+    }
+
+
+
     @BeforeClass
     public static void beforeClass(){  //First of all
         System.out.println("Before class");
